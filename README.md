@@ -25,7 +25,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/username/zernyshko.git
+   git clone https://github.com/Alexandra-Kuznetsova33/Zernyshko.git
 Откройте index.html в любом современном браузере.
 Локальный сервер не требуется — проект работает полностью статически.
 
