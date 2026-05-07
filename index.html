@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>Кофейня Зернышко</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/adaptive.css">
+  <script
+    src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=b5ec1777-c4eb-4940-beb8-6680f85ad1fc&suggest_apikey=5a1e2fd3-e6f3-4efe-b35e-b9256dca26ae"
+    type="text/javascript"></script>
+</head>
+
+<body>
+
+  <header class="header center">
+    <div class="header__logo">ЗЕРНЫШКО</div>
+
+    <div class="header-nav-block">
+      <a href="#cafe-info-section" class="header__nav">О нас</a>
+      <a href="#menu-section" class="header__nav">Меню</a>
+      <a href="#reviews-section" class="header__nav">Отзывы</a>
+      <a href="#contacts-section" class="header__nav">Контакты</a>
+      <a href="#contacts-section" class="header__btn btn">Связаться</a>
+    </div>
+  </header>
+  <section class="top center">
+    <div class="top__intro">
+      <h1 class="top__title">Добро пожаловать<br>в <span>«</span>Зернышко<span>»</span></h1>
+      <h2 class="top__subtitle"> Ароматный кофе и уютная <br> атмосфера каждый день</h2>
+      <p class="top__description desc-spacing">
+        Мы готовим кофе с душой и верим, что каждая чашка — это маленькое наслаждение, созданное для вас.</p>
+      <p class="top__description">
+        Мы предлагаем свежие зерна, уникальные авторские рецепты и заботу о природе.
+        Наши бариста рады подарить вам вкус и уют, из-за которых захочется возвращаться снова и снова.</p>
+      <a href="#menu-section" class="top__btn btn">Посмотреть меню</a>
+    </div>
+    <div>
+      <img class="top__img" src="./img/table.png" alt="вариант сервировки столика">
+      <img class="top__img-1" src="./img/img-1.png" alt="зерна кофе">
+      <img class="top__img-2 img-rotate" src="./img/img-2.png" alt="напиток">
+      <img class="top__img-3 img-rotate" src="./img/img-3.png" alt="еда">
+      <img class="top__img-4 img-rotate" src="./img/img-4.png" alt="еда">
+    </div>
+  </section>
+
+
+  <main class="main center">
+
+    <h1 class="cafe-info__title" id="cafe-info-section">О нас</h1>
+    <section class="cafe-info">
+
+      <div class="cafe-info-card">
+        <div class="cafe-info-card__img-wrapper">
+          <img class="cafe-info-card__img" src="./img/info-img1.png" alt="About-Us">
+        </div>
+        <div class="cafe-info-card__content">
+          <h2 class="cafe-info-card__heading">История</h2>
+          <p class="cafe-info-card__description desc-spacing">
+            «Зернышко» — кофейня, которая родилась из любви к хорошему кофе и желания создать место уюта для каждого.
+          </p>
+          <p class="cafe-info-card__description">
+            Открытая в 2020 году, кофейня быстро стала любимой как для ценителей кофе, так и для тех, кто просто ищет
+            спокойное место для отдыха.
+          </p>
+        </div>
+      </div>
+
+      <div class="cafe-info-card">
+        <div class="cafe-info-card__img-wrapper">
+          <img class="cafe-info-card__img" src="./img/info-img2.png" alt="About-Us">
+        </div>
+        <div class="cafe-info-card__content">
+          <h2 class="cafe-info-card__heading">Философия</h2>
+          <p class="cafe-info-card__description desc-spacing">
+            Мы верим, что каждая чашка кофе — это особый момент.
+          </p>
+          <p class="cafe-info-card__description desc-spacing">
+            Стремимся создать теплую дружелюбную атмосферу, где каждый гость чувствует себя как дома.
+          </p>
+          <p class="cafe-info-card__description">
+            Наши бариста с заботой подходят к каждому заказу, создавая напитки с любовью и вниманием к деталям.
+          </p>
+        </div>
+      </div>
+
+      <div class="cafe-info-card">
+        <div class="cafe-info-card__img-wrapper">
+          <img class="cafe-info-card__img" src="./img/info-img3.png" alt="About-Us">
+        </div>
+        <div class="cafe-info-card__content">
+          <h2 class="cafe-info-card__heading">Свежее зерно</h2>
+          <p class="cafe-info-card__description desc-spacing">
+            Мы используем только свежие зерна и экспериментируем с оригинальными рецептами, чтобы радовать гостей
+            уникальными вкусами.
+          </p>
+          <p class="cafe-info-card__description">
+            Наша команда сотрудничает с локальными обжарщиками, поддерживая высокое качество и разнообразие.
+          </p>
+        </div>
+      </div>
+
+      <div class="cafe-info-card">
+        <div class="cafe-info-card__img-wrapper">
+          <img class="cafe-info-card__img" src="./img/info-img4.png" alt="About-Us">
+        </div>
+        <div class="cafe-info-card__content">
+          <h2 class="cafe-info-card__heading">Забота о природе</h2>
+          <p class="cafe-info-card__description desc-spacing">
+            Мы стараемся уменьшить экологический след, используя биоразлагаемые стаканчики и предлагая скидки для тех,
+            кто приходит со своей чашкой.
+          </p>
+          <p class="cafe-info-card__description">
+            Мы заботимся не только о клиентах, но и о планете.
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="category-block">
+      <h1 class="menu__title" id="menu-section">Меню</h1>
+      <div class="category">
+        <a href="#" class="category-btn btn active" data-category="coffee">Кофе</a>
+        <a href="#" class="category-btn btn" data-category="desserts">Десерты</a>
+        <a href="#" class="category-btn btn" data-category="snacks">Закуски</a>
+      </div>
+    </div>
+
+    <section class="menu" id="menu-cards">
+    </section>
+
+    <h1 class="reviews__title" id="reviews-section">Отзывы</h1>
+    <section class="reviews-cards">
+
+      <div class="reviews-card">
+        <div class="reviews-card__info">
+          <img class="reviews-card__photo" src="./img/reviews/photo-1.png" alt="reviews">
+          <div class="reviews-card-flex">
+            <h2 class="reviews-card__name">Ирина</h2>
+            <img class="reviews-card__rating" src="./img/reviews/stars.png" alt="rating">
+          </div>
+        </div>
+        <div class="reviews-card__text">
+          Очень уютное место! Всегда чувствуешь себя желанным гостем,
+          а ваши бариста не только готовят отличный и вкусный кофе, но и могут подсказать что-то новенькое попробовать.
+        </div>
+      </div>
+
+      <div class="reviews-card">
+        <div class="reviews-card__info">
+          <img class="reviews-card__photo" src="./img/reviews/photo-2.png" alt="reviews">
+          <div class="reviews-card-flex">
+            <h2 class="reviews-card__name">Игорь</h2>
+            <img class="reviews-card__rating" src="./img/reviews/stars.png" alt="rating">
+          </div>
+        </div>
+        <div class="reviews-card__text">
+          Я настоящий кофеман, и «Зернышко» удивило меня качеством!
+          Здесь всегда свежие зерна и интересные рецепты — каждый раз нахожу новый вкус для себя.
+          Рекомендую всем своим друзьям.
+        </div>
+      </div>
+
+      <div class="reviews-card">
+        <div class="reviews-card__info">
+          <img class="reviews-card__photo" src="./img/reviews/photo-3.png" alt="reviews">
+          <div class="reviews-card-flex">
+            <h2 class="reviews-card__name">Александр</h2>
+            <img class="reviews-card__rating" src="./img/reviews/stars.png" alt="rating">
+          </div>
+        </div>
+        <div class="reviews-card__text">
+          Приятно видеть, что кофейня заботится о природе.
+          Экологичная упаковка, скидка за свою чашку — такие мелочи, а настро-ение поднимают!
+          Приятно, что здесь думают о планете.
+        </div>
+      </div>
+
+      <div class="reviews-card">
+        <div class="reviews-card__info">
+          <img class="reviews-card__photo" src="./img/reviews/photo-4.png" alt="reviews">
+          <div class="reviews-card-flex">
+            <h2 class="reviews-card__name">Эльза</h2>
+            <img class="reviews-card__rating" src="./img/reviews/stars.png" alt="rating">
+          </div>
+        </div>
+        <div class="reviews-card__text">
+          В «Зернышке» особенная атмосфера: уютно, стильно и спокойно.
+          Идеальное место, чтобы сбежать от городской суеты, почитать книгу или просто расслабиться за чашкой кофе.
+        </div>
+      </div>
+
+      <div class="reviews-card">
+        <div class="reviews-card__info">
+          <img class="reviews-card__photo" src="./img/reviews/photo-5.png" alt="reviews">
+          <div class="reviews-card-flex">
+            <h2 class="reviews-card__name">Андрей</h2>
+            <img class="reviews-card__rating" src="./img/reviews/stars.png" alt="rating">
+          </div>
+        </div>
+        <div class="reviews-card__text">
+          Бариста всегда приветливые и открытые к общению.
+          Люблю, когда заходишь, и тебя встречают с улыбкой и вниманием к деталям.
+          Кажется, что здесь всех знают по имени и каждому рады.
+        </div>
+      </div>
+
+      <div class="reviews-card">
+        <div class="reviews-card__info">
+          <img class="reviews-card__photo" src="./img/reviews/photo-6.png" alt="reviews">
+          <div class="reviews-card-flex">
+            <h2 class="reviews-card__name">Кристина</h2>
+            <img class="reviews-card__rating" src="./img/reviews/stars.png" alt="rating">
+          </div>
+        </div>
+        <div class="reviews-card__text">
+          Каждая чашка кофе в «Зернышке» словно маленький шедевр.
+          Ощущается внимание к мелочам — от аромата до оформления напитка.
+          Это то место, куда хочется возвращаться снова и снова.
+        </div>
+      </div>
+
+    </section>
+
+
+    <h1 class="contacts__title" id="contacts-section">Как нас найти</h1>
+    <section class="contacts">
+
+      <div class="contacts-card">
+        <h2 class="contacts-card__title">Контакты</h2>
+        <div class="contacts-card__list">
+          <div class="icons">
+            <img src="./img/icons/vuesax/bold/call.svg" alt="call">
+            <img src="./img/icons/vuesax/bold/sms.svg" alt="sms">
+            <img src="./img/icons/vuesax/bold/location.svg" alt="location">
+          </div>
+          <div class="contact">
+            <a href="tel:+7 (999) 999 99-99">+7 (999) 999 99-99</a>
+            <a href="mailto:zernyshko@mail.ru">zernyshko@mail.ru</a>
+            <a href="https://yandex.ru/maps/">СПб, Коржекова, 5</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="booking-card">
+        <h2 class="booking-card__title">Бронирование</h2>
+        <input type="text" class="booking-card__input" placeholder="Ваше имя">
+        <input type="text" class="booking-card__input" placeholder="Ваш номер телефона">
+        <input type="text" class="booking-card__input" placeholder="Комментарий">
+        <a href="#" class="booking-card__button btn">Забронировать</a>
+      </div>
+
+      <div class="map" id="map">
+        <script src="./coffee.js"></script>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="footer center">
+    <div class="footer-div">
+      <a href="#" class="footer__logo">ЗЕРНЫШКО</a>
+      <p class="footer__private">© 2025 Все права защищены</p>
+    </div>
+    <div class="footer-div2">
+      <div class="footer-menu">
+        <a href="#cafe-info-section" class="footer__nav">О нас</a>
+        <a href="#menu-section" class="footer__nav">Меню</a>
+        <a href="#reviews-section" class="footer__nav">Отзывы</a>
+        <a href="#contacts-section" class="footer__nav">Контакты</a>
+      </div>
+      <div class="social-icons">
+        <a href="https://vk.com/cafezernishko" target="_blank">
+          <img src="./img/icons/VK.svg" alt="ВКонтакте" class="hover-icon">
+        </a>
+        <a href="https://instagram.com/cafezernishko" target="_blank">
+          <img src="./img/icons/inst.svg" alt="Instagram" class="hover-icon">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,416 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  background-color: #FFFFFF;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header__logo {
+  font-weight: 800;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.header-nav-block {
+  display: flex;
+  gap: 48px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.header__btn {
+  padding: 16px 36px;
+  width: 169px;
+}
+
+.top {
+  background-color: #F6F5F4;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.top__img {
+  position: absolute;
+  right: -10px;
+  object-fit: cover;
+}
+
+.top__img-1 {
+  position: absolute;
+  right: 70px;
+  top: 50px;
+}
+
+.top__img-2 {
+  position: absolute;
+  top: 96px;
+  right: 380px;
+}
+
+.top__img-3 {
+  position: absolute;
+  top: 250px;
+  right: -50px;
+}
+
+.top__img-4 {
+  position: absolute;
+  bottom: 20px;
+  right: 400px;
+}
+
+.img-rotate {
+  transition: transform 1s ease;
+}
+
+.img-rotate:hover {
+  transform: rotate(-15deg);
+}
+
+.top__intro {
+  padding-top: 119px;
+  padding-bottom: 209px;
+  width: 710px;
+}
+
+.top__title {
+  margin-bottom: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.top__subtitle {
+  margin-bottom: 24px;
+}
+
+.top__description {
+  max-width: 499px;
+}
+
+.desc-spacing {
+  margin-bottom: 7px;
+}
+
+.top__btn {
+  font-weight: 600;
+  padding: 16px 36px;
+  width: 366px;
+  margin-top: 40px;
+}
+
+.main {
+  background-color: #F6F5F4;
+}
+
+.cafe-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.cafe-info__title {
+  padding-top: 64px;
+  padding-bottom: 48px;
+}
+
+.cafe-info-card {
+  width: 584px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  box-shadow: 0px 4px 20px 0px #00000024;
+  overflow: hidden;
+}
+
+.cafe-info-card__img-wrapper {
+  width: 292px;
+  height: 292px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.cafe-info-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s ease;
+  display: block;
+}
+
+.cafe-info-card:hover .cafe-info-card__img {
+  transform: scale(1.4);
+  image-rendering: crisp-edges;
+}
+
+.cafe-info-card__content {
+  padding: 20px;
+}
+
+.cafe-info-card__heading {
+  padding-bottom: 14px;
+}
+
+.cafe-info-card__description {
+  font-size: 14px;
+}
+
+.category-block {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 64px;
+  padding-bottom: 48px;
+}
+
+.category {
+  display: flex;
+  gap: 7px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.category-btn {
+  width: 120px;
+  max-height: 45px;
+  padding: 14px;
+  font-size: 14px;
+}
+
+.category-btn.active {
+  color: #fff;
+  background-color: #A26539;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding-bottom: 64px;
+}
+
+
+.menu-card {
+  width: 276px;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  box-shadow: 0px 4px 20px 0px #00000024;
+}
+
+.menu-card__content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.menu-card__price {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.menu-card__description {
+  font-size: 14px;
+}
+
+.menu-card__volume {
+  font-size: 14px;
+  color: #9A9A9A;
+}
+
+.menu-card__img-wrapper {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 24px 24px 0 0;
+}
+
+.menu-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s ease;
+  display: block;
+  background-color: #dedede;
+}
+
+.menu-card:hover .menu-card__img {
+  transform: scale(1.3);
+  image-rendering: crisp-edges;
+}
+
+.reviews__title {
+  padding-top: 64px;
+  padding-bottom: 48px;
+}
+
+.reviews-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 31px;
+  padding-bottom: 64px;
+}
+
+.reviews-card {
+  width: 379px;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  box-shadow: 0px 4px 20px 0px #00000024;
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+}
+
+.reviews-card__info {
+  display: flex;
+  gap: 20px;
+}
+
+.reviews-card-flex {
+  display: grid;
+  gap: 7px;
+}
+
+.reviews-card__text {
+  font-size: 14px;
+}
+
+.contacts {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 1fr 2fr;
+  padding-bottom: 64px;
+
+}
+
+.contacts__title {
+  padding-top: 64px;
+  padding-bottom: 48px;
+}
+
+.contacts-card {
+  width: 379px;
+  max-height: 181px;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  box-shadow: 0px 4px 20px 0px #00000024;
+  padding: 20px;
+  display: grid;
+  gap: 24px;
+  grid-column: 1 / 2;
+}
+
+.contacts-card__list {
+  display: flex;
+  gap: 10px;
+}
+
+.icons {
+  display: grid;
+  gap: 14px;
+}
+
+.contact {
+  display: grid;
+  gap: 14px;
+}
+
+.booking-card {
+  width: 379px;
+  max-height: 319px;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  box-shadow: 0px 4px 20px 0px #00000024;
+  padding: 20px;
+  display: grid;
+  gap: 7px;
+  grid-column: 1 / 2;
+}
+
+.booking-card__title {
+  margin-bottom: 17px;
+}
+
+.booking-card__input {
+  width: 339px;
+  height: 47px;
+  border-radius: 24px;
+  border: solid 1px #dedede;
+  padding: 14px 48px 16px 24px;
+  font-size: 14px;
+  outline: none;
+}
+
+.booking-card__button {
+  width: 339px;
+  height: 47px;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  font-size: 14px;
+  margin-top: 17px;
+}
+
+.map {
+  width: 789px;
+  height: 514px;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  box-shadow: 0px 4px 20px 0px #00000024;
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  overflow: hidden;
+}
+
+
+.footer {
+  background-color: #FFFFFF;
+  max-height: 156px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 100%;
+  color: #45403D;
+  padding-top: 43px;
+  padding-bottom: 43px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  font-weight: 800;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.footer__private {
+  color: #9A9A9A;
+  font-size: 14px;
+}
+
+.footer-div {
+  display: grid;
+  gap: 14px;
+  justify-items: start;
+}
+
+.footer-div2 {
+  display: grid;
+  gap: 14px;
+  justify-items: end;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 24px;
+  font-size: 14px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 14px;
+}
