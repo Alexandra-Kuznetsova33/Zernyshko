@@ -71,6 +71,8 @@
     /* Меню (карточки) */
     .menu {
         justify-content: center;
+        gap: 20px;
+        padding-bottom: 32px;
     }
 
     .menu-card {
@@ -86,6 +88,8 @@
     /* Отзывы */
     .reviews-cards {
         justify-content: center;
+        gap: 20px;
+        padding-bottom: 34px;
     }
 
     .reviews-card {
@@ -204,8 +208,12 @@
         padding: 16px;
     }
 
+    .cafe-info-card__heading {
+        font-size: 20px;
+    }
+
     .cafe-info-card__description {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .category {
@@ -219,9 +227,11 @@
         padding: 12px;
     }
 
-    .cafe-info-card__heading {
-        font-size: 18px;
+    .menu {
+        gap: 10px;
+        padding-bottom: 12px;
     }
+
 
     .menu-card__description {
         font-size: 12px;
@@ -235,6 +245,11 @@
 
     .menu-card__price {
         font-size: 18px;
+    }
+
+    .reviews-cards {
+        gap: 10px;
+        padding-bottom: 14px;
     }
 
     .reviews-card {
