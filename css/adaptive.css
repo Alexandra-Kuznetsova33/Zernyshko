@@ -67,6 +67,7 @@
         justify-content: center;
     }
 
+
     /* Меню (карточки) */
     .menu {
         justify-content: center;
@@ -129,8 +130,12 @@
         padding-right: 16px;
     }
 
+    h1 {
+        font-size: 32px;
+    }
+
     .header {
-        height: 120px;
+        height: 80px;
         flex-wrap: wrap;
         justify-content: center;
         gap: 8px;
@@ -156,20 +161,16 @@
     }
 
     .header__btn {
-        padding: 10px 20px;
-        font-size: 14px;
-    }
-
-    .top__title {
-        font-size: 32px;
+        display: none;
     }
 
     .top__subtitle {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .top__intro {
         width: 100%;
+        text-align: center;
     }
 
     .top__img,
@@ -183,6 +184,9 @@
     .top__btn {
         width: 100%;
         max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 
     /* Cafe-info */
@@ -200,8 +204,8 @@
         padding: 16px;
     }
 
-    .cafe-info-card__content {
-        padding: 16px;
+    .cafe-info-card__description {
+        font-size: 10px;
     }
 
     .category {
@@ -213,6 +217,24 @@
         width: auto;
         flex: 1;
         padding: 12px;
+    }
+
+    .cafe-info-card__heading {
+        font-size: 18px;
+    }
+
+    .menu-card__description {
+        font-size: 12px;
+    }
+
+
+    .menu-card__volume {
+        font-size: 9px;
+    }
+
+
+    .menu-card__price {
+        font-size: 18px;
     }
 
     .reviews-card {
@@ -241,15 +263,12 @@
         text-align: center;
     }
 
-    .footer-div,
-    .footer-div2 {
+    .footer-div {
         align-items: center;
     }
 
     .footer-menu {
-        flex-direction: column;
-        gap: 8px;
-        align-items: center;
+        display: none;
     }
 
 }
